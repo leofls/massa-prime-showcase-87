@@ -24,6 +24,20 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				
+				// Brand colors for Massa Estética Automotiva
+				'brand-blue': {
+					DEFAULT: 'hsl(var(--brand-blue))',
+					hover: 'hsl(var(--brand-blue-hover))',
+					light: 'hsl(var(--brand-blue-light))'
+				},
+				'premium-black': {
+					DEFAULT: 'hsl(var(--premium-black))',
+					light: 'hsl(var(--premium-black-light))'
+				},
+				'pure-white': 'hsl(var(--pure-white))',
+				'off-white': 'hsl(var(--off-white))',
+
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
